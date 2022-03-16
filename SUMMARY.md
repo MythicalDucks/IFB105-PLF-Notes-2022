@@ -2,7 +2,7 @@
 
 * [Welcome!](README.md)
 
-## The Company
+## IFB105 Notes
 
-* [Vision and Values](the-company/vision-and-values.md)
-* [Meet the Team!](the-company/meet-the-team.md)
+* [Week 1](ifb105-notes/week-1.md)
+* [Week 2](ifb105-notes/week-2.md)
