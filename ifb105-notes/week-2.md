@@ -122,6 +122,34 @@ Where the arity of a predicate is greater than one, the predicate can be read in
 The two predicates have different _**surface structures**_ but the same _**deep structure**_.\
 We analyse the deep structure of the sentence to understand exactly what we're dealing with.
 
+
+
+
+
+
+
+
+
+
+
+TBC.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Graphical/Tabular Representations
 
 ![Figure 2 - Graphical Representation of a Role between Entity Type and Reference Mode](<../.gitbook/assets/image (3).png>)
