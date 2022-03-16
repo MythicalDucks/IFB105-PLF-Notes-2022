@@ -1,3 +1,8 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Welcome!](README.md)
+
+## The Company
+
+* [Vision and Values](the-company/vision-and-values.md)
+* [Meet the Team!](the-company/meet-the-team.md)
