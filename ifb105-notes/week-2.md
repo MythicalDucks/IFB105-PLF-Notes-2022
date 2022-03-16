@@ -24,7 +24,9 @@ This week we cover the first 3 steps of CSDP:
 
 ### Elementary Facts
 
-An elementary fact is a simple assertion, or atomic proposition, about the domain.\*
+An elementary fact is a simple assertion, or atomic proposition, about the domain.
+
+Essentially, elementary facts are atomic. They cannot be split.
 
 Examples of Elementary Facts are as follows:
 
@@ -39,8 +41,6 @@ Examples of incorrect Elementary Facts are as follows:
 * Ann smokes **and** Bob smokes. - (Illegal, utilises logical conjunction).
 * **All** people who smoke are cancer-prone. - (Illegal, utilises a logical quantifier).
 * **If** Bob smokes **then** Bob is cancer-prone. - (Illegal, the statement is a conditional fact).
-
-_\*Elementary facts are atomic. They cannot be split. A fact type represents one fact, regardless of its arity_
 
 ### Conceptual Modelling Method & Conceptual Schema Design Procedure (CSDP),
 
@@ -78,5 +78,56 @@ An entity may be a tangible object (the City named ‘Brisbane’) or an abstrac
 
 * E.g. - Australia has six states, "Australia" has nine letters.
 
-### Entity Types and Reference Modes
+**Reference Mode:**
 
+There are instances throughout the domain which can create potential confusion. For example, consider two individuals - "Lee Jones" and "Mary Lee", with the sentence: "The Patient ‘Lee’ has a Temperature of 37."
+
+This can lead to confusion about which 'Lee' is being referred to. This is resolved with the Reference Mode (i.e., how the value refers to the entity).
+
+![Figure 1 - Example of Values, Entity Types and Reference Mode in an elementary fact.](../.gitbook/assets/image.png)
+
+### Predicates & Arities&#x20;
+
+In logic, a **predicate** is a declarative sentence with object holes in it. To complete the sentence, the _object holes_ are filled in by _object terms_. Whereas the **arity** of the predicate tells us how many ‘object holes’ the sentence has.
+
+* A **unary** predicate has one, e.g., Ann studies ( …… studies)&#x20;
+* A **binary** predicate has two, e.g., ..….. works in ..…..&#x20;
+* A **ternary** predicate has three, e.g., ….. obtains a grade of ….. for …..
+
+Although there can be various amounts of predicates, students should only need to use unary, binary or ternary predicates. ****&#x20;
+
+### Semantic Equivalence & Fact Type Instances
+
+The Employee with employee name "Mary Smith" __ works in the Department with department name 'Sales'. \
+\
+_The above is semantically equivalent to:_\
+__The Department __ with department name 'Sales' employs the Employee with employee name "Mary Smith". \
+\
+The existence of the role "_works in_" necessarily implies the existence of the role "_employs_".\
+Both roles are said to belong to a **fact type**; e.g. we can call this fact type DepartmentLocation.\
+\
+A fact type can have **multiple fact type instances**, which essentially means we can have multiple examples using the DepartmentLocation fact type to describe relationships in our domain.
+
+### Surface Structures vs. Deep Structures
+
+Where the arity of a predicate is greater than one, the predicate can be read in more than one way, for instance:
+
+* Mary works in Sales&#x20;
+* Sales employs Mary
+
+{% hint style="info" %}
+... employs ... is the **** _inverse_ of ... works in ...&#x20;
+{% endhint %}
+
+The two predicates have different _**surface structures**_ but the same _**deep structure**_.\
+We analyse the deep structure of the sentence to understand exactly what we're dealing with.
+
+### Graphical/Tabular Representations
+
+![Figure 2 - Graphical Representation of a Role between Entity Type and Reference Mode](<../.gitbook/assets/image (3).png>)
+
+![Figure 3 - Graphical Representation of Fact Types and Entities](<../.gitbook/assets/image (2).png>)
+
+![Figure 4 - An Instance of the Information Base](<../.gitbook/assets/image (5).png>)
+
+![Figure 5 - Tabular Representation](<../.gitbook/assets/image (4).png>)
