@@ -84,7 +84,7 @@ There are instances throughout the domain which can create potential confusion. 
 
 This can lead to confusion about which 'Lee' is being referred to. This is resolved with the Reference Mode (i.e., how the value refers to the entity).
 
-![Figure 1 - Example of Values, Entity Types and Reference Mode in an elementary fact.](../.gitbook/assets/image.png)
+![Figure 1 - Example of Values, Entity Types and Reference Mode in an elementary fact.](<../.gitbook/assets/image (1).png>)
 
 ### Predicates & Arities&#x20;
 
@@ -156,6 +156,6 @@ TBC.....
 
 ![Figure 3 - Graphical Representation of Fact Types and Entities](<../.gitbook/assets/image (2).png>)
 
-![Figure 4 - An Instance of the Information Base](<../.gitbook/assets/image (5).png>)
+![Figure 4 - An Instance of the Information Base](<../.gitbook/assets/image (5) (1).png>)
 
-![Figure 5 - Tabular Representation](<../.gitbook/assets/image (4).png>)
+![Figure 5 - Tabular Representation](<../.gitbook/assets/image (4) (1).png>)
